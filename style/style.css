@@ -15,7 +15,7 @@
     color: var(--text-color);
 }
 .header{
-    background-image: url(../Assets/barista-work-coffee-shop.jpg);
+    background-image: url(../cafesite/Assets/barista-work-coffee-shop.jpg);
     background-size: cover;
     background-position: center;
     color: white;
