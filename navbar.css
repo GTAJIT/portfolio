@@ -19,10 +19,12 @@
     font-weight: 700;
     color: var(--secondary-text-color);
 }
-.logo{
+
+.logo {
     display: flex;
     gap: 5px;
 }
+
 .right {
     display: flex;
     justify-content: flex-end;
@@ -38,10 +40,6 @@
     flex-wrap: wrap;
 }
 
-.page-list{
-    /* display: none; */
-}
-
 .mx {
     list-style: none;
     align-items: center;
@@ -55,11 +53,13 @@
     color: var(--secondary-text-color);
 
 }
-a{
+
+a {
     color: inherit;
     text-decoration: inherit;
     cursor: pointer;
 }
+
 .mx-bar {
     font-size: 1.25rem;
     color: var(--navbar-li-color);
