@@ -1,19 +1,12 @@
 @media (max-width: 405px) {
-    .name{
+    .name {
         display: none;
     }
 }
 
 @media (max-width: 650px) {
-    body {
-    }
-
     .mc {
         display: none;
-    }
-
-    .name{
-        /* display: none; */
     }
 
     .icon-menu {
@@ -76,7 +69,7 @@
 
     /* FIN ICON-MENU */
 
-    .page-list{
+    .page-list {
         background-color: var(--text-color);
         margin-left: 50%;
         margin-right: .5rem;
@@ -85,12 +78,14 @@
         align-items: center;
         justify-content: center;
     }
-    .list{
+
+    .list {
         justify-content: center;
         align-content: center;
         align-items: center;
     }
-    .m{
+
+    .m {
         color: var(--text-color);
         margin-top: 2rem;
         margin-bottom: 2rem;
