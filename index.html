@@ -1,247 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
-    <title>Cafe</title>
-    <link rel="stylesheet" href="./style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style/main.css">
+    <link rel="stylesheet" href="/style/navbar.css">
+    <link rel="stylesheet" href="hero.css">
+    <title>CodesByJit</title>
+    <script type="text/javascript" src="/script/darkmode.js" defer></script>
 </head>
-<body>
-    <div class="main-colour">
-    <div class="main">
-        <div class="header">
-            <div class="header-main">
-                <div class="logo-main">
-                    <b class="name">Coffee</b>
-                </div>
-                <div class="pages">
-                    <div class="page-info">home</div>
-                    <div class="page-info">coffee</div>
-                    <div class="page-info">bakery</div>
-                    <div class="page-info">shop</div>
-                    <div class="page-info">about</div>
-                    <button class="page-info" id="btn-2">Login</button>
-                </div>
-                <div class="search">
-                    <button class="search-btn">
-                        <i class="fas fa-search"></i>
-                    </button>
-                </div>
-            </div>
-            <div class="header-text">
-                <p class="header-p">Welcome!</p>
-                <h1 class="header-h1">We serve the richest coffee<br> in the city!</h1>
-                <button class="header-order">
-                    <p class="order-text">Order Now</p>
+
+<body class="darkmod">
+    <div class="navbar">
+        <div class="left">
+            <a href="/">
+                <b class="font-bold">&lt;/&gt;</b>
+                CodesByJit
+            </a>
+        </div>
+        <div class="right">
+            <ul class="pages">
+                <span class="mx"><a href="/">home</a></span>
+                <span class="mx"><a href="/work">work</a></span>
+                <span class="mx"><a href="/about">about</a></span>
+                <span class="mx"><a href="/contact">contact</a></span>
+                <span class="mx-bar"><b>|</b></span>
+            </ul>
+            <div class="download">
+                <button id="theme-switch">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                        fill="undefined">
+                        <path
+                            d="M480-280q-83 0-141.5-58.5T280-480q0-83 58.5-141.5T480-680q83 0 141.5 58.5T680-480q0 83-58.5 141.5T480-280ZM200-440H40v-80h160v80Zm720 0H760v-80h160v80ZM440-760v-160h80v160h-80Zm0 720v-160h80v160h-80ZM256-650l-101-97 57-59 96 100-52 56Zm492 496-97-101 53-55 101 97-57 59Zm-98-550 97-101 59 57-100 96-56-52ZM154-212l101-97 55 53-97 101-59-57Z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                        fill="undefined">
+                        <path
+                            d="M480-120q-150 0-255-105T120-480q0-150 105-255t255-105q14 0 27.5 1t26.5 3q-41 29-65.5 75.5T444-660q0 90 63 153t153 63q55 0 101-24.5t75-65.5q2 13 3 26.5t1 27.5q0 150-105 255T480-120Z" />
+                    </svg>
                 </button>
-            </div>
-        </div>
-        <div class="t-logo">
-            <div class="logo">
-                <i class='fas fa-mug-hot'></i>
-                <p class="logo-text">Hot Coffee</p>
-            </div>
-            <div class="logo">
-                <i class='fas fa-cocktail'></i>
-                <p class="logo-text">Cold Coffee</p>
-            </div>
-            <div class="logo">
-                <i class='fas fa-glass-whiskey'></i>
-                <p class="logo-text">Cup Coffee</p>
-            </div>
-            <div class="logo">
-                <i class='fa fa-barcode'></i>
-                <p class="logo-text">Dessert</p>
-            </div>
-        </div>
-        <div class="content">
-            <div class="st-text">our special coffee</div>
-            <div class="st-set-img">
-                <div class="pic">
-                    <img class="pic-img" src="./cafesite/Assets/content-pic/Cold Brew Coffee_ This is The Easiest Way To Make Cold Brew Coffee.jpeg" alt=" ">
-                    <div class="pic-text">
-                        <label class="heart-wrapper">
-                            <input type="checkbox" class="heart-checkbox">
-                            <i class="fas fa-heart heart-icon"></i>
-                        </label>
-                        <b class="pic-heading">Coffee</b>
-                        <p class="pic-des">...</p>
-                        <b class="price">Rs. </b>
-                        <button class="order">
-                            <p class="order-text-2">Order Now</p>
-                        </button>
+                <button type="button" class="download-btn" data-tooltip="Size: 20Mb">
+                    <div class="button-wrapper">
+                        <div class="text">My CV</div>
+                        <span class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="2em"
+                                height="2em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                                <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M12 15V3m0 12l-4-4m4 4l4-4M2 17l.621 2.485A2 2 0 0 0 4.561 21h14.878a2 2 0 0 0 1.94-1.515L22 17">
+                                </path>
+                            </svg>
+                        </span>
                     </div>
-                </div>
-                <div class="pic">
-                    <img class="pic-img" src="./cafesite/Assets/content-pic/Easy 1 Minute Instant Iced Coffee.jpeg" alt=" ">
-                    <div class="pic-text">
-                        <label class="heart-wrapper">
-                            <input type="checkbox" class="heart-checkbox">
-                            <i class="fas fa-heart heart-icon"></i>
-                        </label>
-                        <b class="pic-heading">Coffee</b>
-                        <p class="pic-des">...</p>
-                        <b class="price">Rs. </b>
-                        <button class="order">
-                            <p class="order-text-2">Order Now</p>
-                        </button>
-                    </div>
-                </div>
-                <div class="pic">
-                    <img class="pic-img" src="./cafesite/Assets/content-pic/Efficient Electric Milk Frother for Hot Foam in a Latte, Cappuccino & More Handheld Whisk Cold Foam.jpeg" alt=" ">
-                    <div class="pic-text">
-                        <label class="heart-wrapper">
-                            <input type="checkbox" class="heart-checkbox">
-                            <i class="fas fa-heart heart-icon"></i>
-                        </label>
-                        <b class="pic-heading">Coffee</b>
-                        <p class="pic-des">...</p>
-                        <b class="price">Rs. </b>
-                        <button class="order">
-                            <p class="order-text-2">Order Now</p>
-                        </button>
-                    </div>
-                </div>
-                <div class="pic">
-                    <img class="pic-img" src="./cafesite/Assets/content-pic/First Watch Inspired Iced Coffee _ Breakfast Café Style Cold Brew.jpeg" alt=" ">
-                    <div class="pic-text">
-                        <label class="heart-wrapper">
-                            <input type="checkbox" class="heart-checkbox">
-                            <i class="fas fa-heart heart-icon"></i>
-                        </label>
-                        <b class="pic-heading">Coffee</b>
-                        <p class="pic-des">...</p>
-                        <b class="price">Rs. </b>
-                        <button class="order">
-                            <p class="order-text-2">Order Now</p>
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="st-text">our special coffee</div>
-            <div class="st-set-img">
-                <div class="pic">
-                    <img class="pic-img" src="./cafesite/Assets/content-pic/Homemade Iced Caramel Macchiato inspired by Starbucks.jpeg" alt=" ">
-                    <div class="pic-text">
-                        <label class="heart-wrapper">
-                            <input type="checkbox" class="heart-checkbox">
-                            <i class="fas fa-heart heart-icon"></i>
-                        </label>
-                        <b class="pic-heading">Coffee</b>
-                        <p class="pic-des">...</p>
-                        <b class="price">Rs. </b>
-                        <button class="order">
-                            <p class="order-text-2">Order Now</p>
-                        </button>
-                    </div>
-                </div>
-                <div class="pic">
-                    <img class="pic-img" src="./cafesite/Assets/content-pic/Is this Coffee bad for you_.jpeg" alt=" ">
-                    <div class="pic-text">
-                        <label class="heart-wrapper">
-                            <input type="checkbox" class="heart-checkbox">
-                            <i class="fas fa-heart heart-icon"></i>
-                        </label>
-                        <b class="pic-heading">Coffee</b>
-                        <p class="pic-des">...</p>
-                        <b class="price">Rs. </b>
-                        <button class="order">
-                            <p class="order-text-2">Order Now</p>
-                        </button>
-                    </div>
-                </div>
-                <div class="pic">
-                    <img class="pic-img" src="./cafesite/Assets/content-pic/Low Calorie Cold Brew Coffee - Lose Weight By Eating.jpeg" alt=" ">
-                    <div class="pic-text">
-                        <label class="heart-wrapper">
-                            <input type="checkbox" class="heart-checkbox">
-                            <i class="fas fa-heart heart-icon"></i>
-                        </label>
-                        <b class="pic-heading">Coffee</b>
-                        <p class="pic-des">...</p>
-                        <b class="price">Rs. </b>
-                        <button class="order">
-                            <p class="order-text-2">Order Now</p>
-                        </button>
-                    </div>
-                </div>
-                <div class="pic">
-                    <img class="pic-img" src="./cafesite/Assets/content-pic/Premium Photo _ Iced coffee and roasted coffee on wood table.jpeg" alt=" ">
-                    <div class="pic-text">
-                        <label class="heart-wrapper">
-                            <input type="checkbox" class="heart-checkbox">
-                            <i class="fas fa-heart heart-icon"></i>
-                        </label>
-                        <b class="pic-heading">Coffee</b>
-                        <p class="pic-des">...</p>
-                        <b class="price">Rs. </b>
-                        <button class="order">
-                            <p class="order-text-2">Order Now</p>
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="st-text"></div>
-        </div>
-        <div class="fill">
-            <div class="fill-content">
-                <b class="fill-text">Check out our best<br> coffee betans</b>
-                <button class="fill-btn">
-                    <p class="fill-btn-text">Explore</p>
                 </button>
-                <div class="feedback">
-                    <input type="text" class="feedback-input" placeholder="Search...">
-                    <button class="feedback-btn">
-                        <i class="fas fa-send"></i>
-                    </button>  
-                </div>
-            </div>
-        </div>
-        <div class="review"></div>
-        <div class="about">
-            <div class="about-icon">
-                <b class="name">Coffee</b>
-            </div>
-            <div class="about-about">
-                <div class="about-one">
-                    <b class="name">privacy</b>
-                    <p class="about-text">terms of use</p>
-                    <p class="about-text">privacy policy</p>
-                    <p class="about-text">coockies</p>
-                </div>
-                <div class="about-two">
-                    <b class="name">services</b>
-                    <p class="about-text">shop</p>
-                    <p class="about-text">order here</p>
-                    <p class="about-text">menu</p>
-                </div>
-                <div class="about-three">
-                    <b class="name">about us</b>
-                    <p class="about-text">find a location</p>
-                    <p class="about-text">about us</p>
-                    <p class="about-text">our story</p>
-                </div>
-                <div class="about-four">
-                    <b class="name">information</b>
-                    <p class="about-text">plans and pricing</p>
-                    <p class="about-text">set your product</p>
-                    <p class="about-text">jobs</p>
-                </div>
-            </div>
-            <div class="socal">
-                <b class="name">socal media</b>
-                <div class="socal-icons">
-                    <a class="fa fa-facebook"> </a>
-                    <a class="fa fa-twitter"> </a>
-                    <a class="fa fa-instagram"> </a>
-                    <a class="fa fa-linkedin"> </a>
-                </div>
             </div>
         </div>
     </div>
     </div>
+    <div class="hero">
+
+    </div>
+    <div class="service"></div>
+    <div class="info"></div>
+    <div class="projects"></div>
+    <div class="contact"></div>
+    <div class="footer"></div>
 </body>
+
 </html>

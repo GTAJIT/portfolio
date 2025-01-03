@@ -1,0 +1,169 @@
+/* colour */
+:root{
+    --bg-color: #F7EDE8;
+    --text-color: rgba(17, 24, 39, 1);
+    --navbar-li-color: #4B5563;
+    --secondary-text-color: #A259FF;
+    --secondary-color: #F9FAFF;
+    --hover-bg-colour: #E5E7EB;
+
+}
+body{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+.left{
+    color: var(--secondary-text-color);
+}
+.mx{
+    color: var(--navbar-li-color);
+}
+.mx:hover{
+    color: var(--secondary-text-color);
+}
+.mx-bar{
+    color: var(--navbar-li-color);
+}
+
+/* main */
+*{
+    inset: 0;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Poppins", serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    flex-wrap: wrap;
+    position: sticky;
+    z-index: 1000;
+}
+.left{
+    padding-left: 1rem;
+    margin-left: .5rem;
+    margin-right: .5rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 700;
+}
+.right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.pages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.mx{
+    list-style: none;
+    align-items: center;
+}
+a{
+    color: inherit;
+    text-decoration: inherit;
+    cursor: pointer;
+}
+.mx-bar{
+    font-size: 1.25rem;
+}
+.download{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 1rem;
+    margin-left: 1rem;
+    margin-right: 0.5rem;
+}
+.download-btn {
+    cursor: pointer;
+    position: relative;
+    width: 80px;
+    height: 32px;
+    background: #000;
+    text-align: center;
+    border-radius: 32px;
+    font-family: inherit;
+    font-size: 12px;
+    border: none;
+    overflow: hidden;
+    color: #fff;
+    transition: background 0.3s;
+    padding: 0;
+}
+
+.download-btn .text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: top 0.5s;
+    font-size: 12px;
+}
+
+.download-btn .icon {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 100%;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: top 0.5s;
+    color: #fff;
+    font-size: 16px;
+}
+
+.download-btn .icon svg {
+    width: 16px;
+    height: 16px;
+}
+
+.download-btn:hover {
+    background: #A259FF;
+}
+
+.download-btn:hover .text {
+    top: -100%;
+}
+
+.download-btn:hover .icon {
+    top: 0;
+}
+
+.download-btn::before {
+    position: absolute;
+    content: attr(data-tooltip);
+    width: 55px;
+    height: 20px;
+    background-color: #fff;
+    font-size: 10px;
+    color: #111;
+    border-radius: 6px;
+    line-height: 20px;
+    bottom: 50px;
+    left: calc(50% - 27.5px); /* Center tooltip */
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s ease-in-out;
+}
+
+.download-btn:hover::before {
+    opacity: 1;
+    visibility: visible;
+}
