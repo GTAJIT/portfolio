@@ -88,7 +88,7 @@ a{
 
 #theme-switch:hover svg {
     transform: scale(1.2);
-    fill: var(--secondary-color);
+    fill: var(--secondary-text-color);
 }
 
 #theme-switch svg:last-child {
