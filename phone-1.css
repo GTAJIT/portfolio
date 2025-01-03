@@ -3,8 +3,19 @@
         display: none;
     }
 }
-
+@media (min-width: 650px) {
+    .page-list{
+        display: none;
+    }
+}
 @media (max-width: 650px) {
+    .page-list {
+        display: none;
+    }
+
+    .check-icon:checked ~ .page-list {
+        display: flex;
+    }
     .mc {
         display: none;
     }
