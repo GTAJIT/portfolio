@@ -8,27 +8,28 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="phone-1.css">
     <link rel="stylesheet" href="navbar.css">
     <link rel="stylesheet" href="hero.css">
     <title>CodesByJit</title>
     <script type="text/javascript" src="darkmode.js" defer></script>
+    <script type="text/javascript" src="main.js" defer></script>
 </head>
 
 <body class="darkmod">
     <div class="navbar">
         <div class="left">
-            <a href="/">
-                <b class="font-bold">&lt;/&gt;</b>
-                CodesByJit
+            <a href="/" class="logo">
+                <b class="font-bold">&lt;/&gt;</b><p class="name">CodesByJit</p>
             </a>
         </div>
         <div class="right">
             <ul class="pages">
-                <span class="mx"><a href="/">home</a></span>
-                <span class="mx"><a href="/work">work</a></span>
-                <span class="mx"><a href="/about">about</a></span>
-                <span class="mx"><a href="/contact">contact</a></span>
-                <span class="mx-bar"><b>|</b></span>
+                <span class="mx mc"><a href="/">home</a></span>
+                <span class="mx mc"><a href="/work">work</a></span>
+                <span class="mx mc"><a href="/about">about</a></span>
+                <span class="mx mc"><a href="/contact">contact</a></span>
+                <span class="mx-bar mc"><b>|</b></span>
             </ul>
             <div class="download">
                 <button id="theme-switch">
@@ -58,11 +59,24 @@
                     </div>
                 </button>
             </div>
+            <input hidden="" class="check-icon" id="check-icon" name="check-icon" type="checkbox">
+            <label class="icon-menu" for="check-icon">
+                <div class="bar bar--1"></div>
+                <div class="bar bar--2"></div>
+                <div class="bar bar--3"></div>
+            </label>
         </div>
     </div>
     </div>
     <div class="hero">
-
+        <div class="page-list" id="page-list">
+            <div class="list">
+                <div class="m mx"><a href="/work">work</a></div>
+                <div class="m mx"><a href="/about">about</a></div>
+                <div class="m mx"><a href="/">home</a></div>
+                <div class="m mx"><a href="/contact">contact</a></div>
+            </div>
+        </div>
     </div>
     <div class="service"></div>
     <div class="info"></div>

@@ -19,7 +19,10 @@
     font-weight: 700;
     color: var(--secondary-text-color);
 }
-
+.logo{
+    display: flex;
+    gap: 5px;
+}
 .right {
     display: flex;
     justify-content: flex-end;
@@ -35,6 +38,10 @@
     flex-wrap: wrap;
 }
 
+.page-list{
+    /* display: none; */
+}
+
 .mx {
     list-style: none;
     align-items: center;
@@ -43,7 +50,10 @@
 }
 
 .mx:hover {
+    transform: scale(1.05);
+    transition: .05s;
     color: var(--secondary-text-color);
+
 }
 a{
     color: inherit;
@@ -53,6 +63,7 @@ a{
 .mx-bar {
     font-size: 1.25rem;
     color: var(--navbar-li-color);
+    cursor: default;
 }
 
 /* Download Section */
