@@ -1,17 +1,130 @@
-.hero{
+.hero {
     /* background-color: aqua; */
 }
-.left-section{
+
+.first-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-section {
     margin-left: 1.5rem;
 }
-.heading-text{
+
+.heading-text {
     color: var(--text-color);
     font-size: 2.5rem;
 }
-.section-name{
+
+.section-name {
     color: var(--secondary-text-color);
 }
-.pera-text{
+
+.pera-text {
     color: var(--navbar-li-color);
     font-size: small;
+}
+
+/* btns */
+.section-btns{
+    display: flex;
+    gap: 1.5rem;
+}
+
+.button {
+    width: 120px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    background-color: var(--hover-bg-color);
+    border-radius: 30px;
+    color: var(--bg-color);
+    font-weight: 600;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    transition-duration: .2s;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.116);
+    padding-left: 8px;
+    transition-duration: .5s;
+}
+
+.svgIcon {
+    height: 25px;
+    transition-duration: 1.5s;
+    fill: var(--bg-color);
+}
+
+.bell path {
+    fill: rgb(19, 19, 19);
+}
+
+.button:hover {
+    background-color: var(--secondary-text-color);
+    transition-duration: .5s;
+}
+
+.button:active {
+    transform: scale(0.97);
+    transition-duration: .2s;
+}
+
+.button:hover .svgIcon {
+    transform: rotate(250deg);
+    transition-duration: 1.5s;
+}
+
+/* btn2   */
+.btn {
+    background: none;
+    padding: 0 1rem;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    letter-spacing: .5px;
+    cursor: pointer;
+    color: var(--secondary-text-color);
+    transition: all 1000ms;
+    font-size: 15px;
+    position: relative;
+    overflow: hidden;
+    outline: 2px solid var(--secondary-text-color);
+}
+
+.btn:hover {
+    color: var(--text-color);
+    transform: scale(1.05);
+    box-shadow: 4px 5px 17px -4px var(--navbar-li-color);
+}
+
+.btn::before {
+    content: "";
+    position: absolute;
+    left: -50px;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: var(--secondary-text-color);
+    transform: skewX(45deg);
+    z-index: -1;
+    transition: width 1000ms;
+}
+
+.btn:hover::before {
+    width: 250%;
+}
+
+.heading{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.pera{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.right-section {
+    background-color: bisque;
 }
