@@ -127,15 +127,17 @@
 }
 
 .right-section {
+    /* margin-left: 50rem;
+    scale: .8; */
     background-color: var(--secondary-text-color);
     border-start-start-radius: 50rem;
     border-end-start-radius: 50rem;
-    border-start-end-radius: 25px;
-    border-end-end-radius: 25px;
+    
 }
 .img{
     position: relative;
     /* background-color: aquamarine; */
+    width: 50%;
 }
 
 .my-pic {
@@ -143,7 +145,7 @@
     display: flex;
     align-items: flex-start;
     object-fit: fill;
-    width: 50%;
+    /* width: 50%; */
     height: 100%;
     /* clip-path: inset(15% 1% 0% 30%); */
     /* object-fit: ; */
