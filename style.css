@@ -8,7 +8,8 @@
 /* Root Variables */
 :root {
     --bg-color: #F7EDE8;
-    --text-color: #ffffff;
+    --svg-color: #ffffff;
+    --text-color: #000000;
     --navbar-li-color: #4B5563;
     --secondary-text-color: #A259FF;
     --secondary-color: #F9FAFF;
@@ -17,7 +18,8 @@
 }
 .darkmode{
     --bg-color: #081217;
-    --text-color: #000000;
+    --svg-color: #000000;
+    --text-color: #ffffff;
     --navbar-li-color: #b4aa9c;
     --secondary-text-color: #5da600;
     --secondary-color: #000106;

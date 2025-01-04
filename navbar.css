@@ -93,7 +93,7 @@ a {
 }
 
 #theme-switch svg {
-    fill: var(--text-color);
+    fill: var(--svg-color);
     transition: transform 0.3s ease, fill 0.3s ease;
 }
 
