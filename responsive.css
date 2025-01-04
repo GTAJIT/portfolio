@@ -101,11 +101,6 @@
         flex-direction: row;
         flex-wrap: wrap;
     }
-    .first-section .left-section{
-        width: 60%;
-        background-color: azure;
-    }
-    
 }
 
 /* hero-section */
@@ -115,11 +110,6 @@
     }
 }
 @media (max-width: 650px) {
-    .first-section{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
     .left-section{
         width: 70%;
     }
