@@ -118,6 +118,9 @@
     .left-section {
         width: 70%;
     }
+    .right-section{
+        display: none;
+    }
 }
 
 @media (max-width: 405px) {
