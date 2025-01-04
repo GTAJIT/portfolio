@@ -1,0 +1,17 @@
+.hero{
+    /* background-color: aqua; */
+}
+.left-section{
+    margin-left: 1.5rem;
+}
+.heading-text{
+    color: var(--text-color);
+    font-size: 2.5rem;
+}
+.section-name{
+    color: var(--secondary-text-color);
+}
+.pera-text{
+    color: var(--navbar-li-color);
+    font-size: small;
+}
