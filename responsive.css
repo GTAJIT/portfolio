@@ -23,12 +23,12 @@
 @media (min-width: 100px) {
     /*navbar*/
     .left {
-        margin-left: var(--phone-margin);
+        margin-left: 1rem;
         margin-right: 0.5rem;
         transition: var(--transition-time);
     }
     .right {
-        margin-right: var(--phone-margin);
+        margin-right: .5rem;
         transition: var(--transition-time);
     }
 
