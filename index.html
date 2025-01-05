@@ -8,28 +8,29 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/style/style.css">
-    <link rel="stylesheet" href="/style/responsive.css">
-    <link rel="stylesheet" href="/style/navbar.css">
-    <link rel="stylesheet" href="/style/hero.css">
-    <script type="text/javascript" src="/script/darkmode.js" defer></script>
-    <script type="text/javascript" src="/script/script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="hero.css">
+    <title>CodesByJit</title>
+    <script type="text/javascript" src="script/darkmode.js" defer></script>
+    <script type="text/javascript" src="script.js" defer></script>
 </head>
 
-<body>
+<body class="darkmod" id="body">
     <div class="navbar">
         <div class="left">
-            <a href="index.html" class="logo">
+            <a href="pages/index.html" class="logo">
                 <b class="font-bold">&lt;/&gt;</b>
                 <p class="name">CodesByJit</p>
             </a>
         </div>
         <div class="right">
             <ul class="pages">
-                <span class="mx mc"><a href="/pages/index.html">home</a></span>
-                <span class="mx mc"><a href="/pages/work.html">work</a></span>
-                <span class="mx mc"><a href="/pages/about.html">about</a></span>
-                <span class="mx mc"><a href="/pages/contact.html">contact</a></span>
+                <span class="mx mc"><a href="/">home</a></span>
+                <span class="mx mc"><a href="/work">work</a></span>
+                <span class="mx mc"><a href="/about">about</a></span>
+                <span class="mx mc"><a href="/contact">contact</a></span>
                 <span class="mx-bar mc"><b>|</b></span>
             </ul>
             <div class="download">
@@ -73,14 +74,57 @@
     </div>
     <div class="nav-list">
         <div class="page-list" id="page-list">
-            <div class="m mx"><a href="/pages/index.html">home</a></div>
-            <div class="m mx"><a href="/pages/work.html">work</a></div>
-            <div class="m mx"><a href="/pages/about.html">about</a></div>
-            <div class="m mx"><a href="/pages/contact.html">contact</a></div>
+            <div class="list">
+                <div class="m mx"><a href="/pages/index.html">home</a></div>
+                <div class="m mx"><a href="/pages/work.html">work</a></div>
+                <div class="m mx"><a href="/pages/about.html">about</a></div>
+                <div class="m mx"><a href="/pages/contact.html">contact</a></div>
+            </div>
         </div>
     </div>
+    <div class="hero">
+        <section class="first-section">
+            <div class="left-section">
+                <div class="heading">
+                    <h1 class="heading-text">Hi, i'm <b class="section-name">Jit</b><br>Mukherjee</h1>
+                </div>
+                <div class="pera">
+                    <p class="pera-text">Creative full-stack web developer crafting dynamic, user-centric websites and
+                        applications that merge innovation with functionality.</p>
+                </div>
+                <div class="section-btns">
+                    <button type="button" class="button" id="work"
+                        onclick="window.open('https://github.com/GTAJIT/','_blank')">
+                        <svg class="svgIcon" viewBox="0 0 512 512" height="1em" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm50.7-186.9L162.4 380.6c-19.4 7.5-38.5-11.6-31-31l55.5-144.3c3.3-8.5 9.9-15.1 18.4-18.4l144.3-55.5c19.4-7.5 38.5 11.6 31 31L325.1 306.7c-3.2 8.5-9.9 15.1-18.4 18.4zM288 256a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z">
+                            </path>
+                        </svg>
+                        My Works
+                    </button>
+                    <button type="button" class="btn" id="link"
+                        onclick="window.open('https://www.linkedin.com/in/jit-mukherjee/', '_blank')">LinkedIn</button>
+                </div>
+            </div>
+            <div class="right-section">
+                <div class="img">
+                    <img class="my-pic" src="my-pic.png" alt="codesbyjit.pic">
+                </div>
+            </div>
+        </section>
     </div>
-    im open to work <br>
-    besically jobless
+    <div class="service">
+    </div>
+    <div class="info"></div>
+    <div class="projects"></div>
+    <div class="contact"></div>
+    <div class="footer">
+        <!-- <p>&copy; 2025 CodesByJit. All rights reserved.</p> -->
+        <div class="social-links">
+            <!-- <a href="https://github.com/GTAJIT/" target="_blank">GitHub</a> -->
+            <!-- <a href="https://www.linkedin.com/in/jit-mukherjee/" target="_blank">LinkedIn</a> -->
+        </div>
+    </div>
 </body>
+
 </html>
