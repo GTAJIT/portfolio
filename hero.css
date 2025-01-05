@@ -8,10 +8,8 @@
 .left-section {
     display: flex;
     flex-direction: column;
-    margin-left: 5rem;
     justify-content: center;
     gap: 1rem;
-    /* background-color: aquamarine; */
     height: 50vh;
 }
 
@@ -49,15 +47,14 @@
     border: none;
     position: relative;
     cursor: pointer;
-    transition-duration: .2s;
+    transition-duration: .25s;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.116);
     padding-left: 8px;
-    transition-duration: .5s;
 }
 
 .svgIcon {
     height: 25px;
-    transition-duration: 1.5s;
+    transition-duration: .5s;
     fill: var(--bg-color);
 }
 
@@ -126,7 +123,6 @@
     background-color: var(--secondary-text-color);
     border-start-start-radius: 50rem;
     border-end-start-radius: 50rem;
-    padding-right: 5rem;
 
 }
 
