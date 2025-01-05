@@ -165,6 +165,7 @@
         justify-content: center;
         align-content: center;
         align-items: center;
+        z-index: 1000;
     }
 
     .m {
@@ -186,7 +187,7 @@
         padding-right: var(--phone-margin);
         gap: 2rem;
         background-color: var(--nav-list-bg-color-ops);
-        box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+        box-shadow: 0 1px 10px -1.5px var(--navbar-li-color);
         border-radius: 12px;
         backdrop-filter: blur(16px) saturate(180%);
     }
