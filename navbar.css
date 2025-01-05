@@ -4,11 +4,14 @@
     justify-content: space-between;
     /* justify-content: space-evenly; */
     align-items: center;
-    padding-top: 1.5rem;
+    padding-top: 1rem;
     padding-bottom: 1rem;
+    margin-bottom: 1.5rem;
     flex-wrap: wrap;
     position: sticky;
     z-index: 1000;
+    background-color: var(--bg-color);
+    /* z-index: -1; */
 }
 
 .left {
