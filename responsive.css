@@ -1,16 +1,80 @@
-@media (max-width: 455px) {
+:root{
+    --transition-time: 0.25s;
+    --phone-margin: 2rem;
+    --main-margin: 5rem;
+    /* transition: var(--transition-time); */
+}
+
+@media (max-width: 485px) {
     .name {
         display: none;
+        transition: var(--transition-time);
+    }
+
+    /* hero */
+    .left-section {
+        width: 70%;
+        transition: var(--transition-time);
+    }
+    
+    
+}
+
+@media (min-width: 100px) {
+    /*navbar*/
+    .left {
+        margin-left: var(--phone-margin);
+        margin-right: 0.5rem;
+        transition: var(--transition-time);
+    }
+    .right {
+        margin-right: var(--phone-margin);
+        transition: var(--transition-time);
+    }
+
+
+    /* hero */
+    .left-section {
+        width: 40%;
+        margin-left: var(--phone-margin);
+        transition: var(--transition-time);
+    }
+    .right-section {
+        padding-right: var(--phone-margin);
+        transition: var(--transition-time);
     }
 }
 
-@media (min-width: 650px) {
+@media (min-width: 750px) {
     .page-list {
         display: none;
     }
+
+    /*navbar*/
+    .left {
+        margin-left: var(--main-margin);
+        margin-right: 0.5rem;
+    }
+    .right {
+        margin-right: var(--main-margin);
+    }
+
+
+    /* hero */
+    .left-section {
+        width: 40%;
+        margin-left: var(--main-margin);
+        transition: var(--transition-time);
+    }
+    .right-section {
+        padding-right: var(--main-margin);
+        transition: var(--transition-time);
+
+    }
+    
 }
 
-@media (max-width: 660px) {
+@media (max-width: 750px) {
     .mc {
         display: none;
     }
@@ -103,31 +167,17 @@
         margin-bottom: 2rem;
     }
 
+    /* hero */
     .first-section {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
     }
-}
-
-/* hero-section */
-@media (min-width: 650px) {
     .left-section {
-        width: 40%;
-    }
-}
-
-@media (max-width: 650px) {
-    .left-section {
-        width: 70%;
+        width: 80%;
+        
     }
     .right-section{
         display: none;
-    }
-}
-
-@media (max-width: 405px) {
-    .left-section {
-        width: 80%;
     }
 }
