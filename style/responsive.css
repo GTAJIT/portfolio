@@ -20,6 +20,16 @@
     
 }
 
+@media (max-width: 768px) {
+    .footer {
+        padding: var(--phone-margin);
+    }
+    .footer .social-links a {
+        margin: 0 10px;
+        font-size: 0.85rem;
+    }
+}
+
 @media (min-width: 100px) {
     /*navbar*/
     .left {
