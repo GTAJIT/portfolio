@@ -258,3 +258,46 @@ a{
 .right-section {
     background-color: bisque;
 }
+
+
+.img {
+    /* overflow: hidden;
+    height: 60vh; */
+    overflow: hidden;
+    height: 60vh;
+    display: flex;
+    align-items: flex-end;
+    /* Aligns child to the bottom */
+    justify-content: center;
+    /* Centers horizontally */
+    /* background-color: var(--secondary-text-color); */
+    /* Matches section color */
+    position: relative;
+    /* box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5); */
+    border-radius: 20px;
+    /* Optional: Adjust for smoother edges */
+}
+
+.my-pic {
+    /* scale: 0.6; */
+    /* width: 50vh; */
+    /* display: block;
+    height: 60vh;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    overflow: hidden; */
+    height: 50%; /* Scale down to make it smaller */
+    object-fit: cover; /* Keeps aspect ratio and fills the height */
+    position: relative;
+    z-index: 1; /* Ensures the image is above shadow effects */
+    mask-image: radial-gradient(circle, black 95%, transparent 100%);
+    -webkit-mask-image: radial-gradient(circle, black 95%, transparent 100%);
+    
+}
+.img::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)); */
+    z-index: 0;
+    border-radius: inherit; /* Keeps the mask in line with img div */
+}
