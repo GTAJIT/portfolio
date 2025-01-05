@@ -167,10 +167,10 @@
         margin-left: 50%;
         margin-right: .5rem;
         display: none;
-        /* display: flex; */
+        display: flex;
         align-items: center;
         justify-content: center;
-        height: 30%;
+        height: 30%; 
         margin-top: 4.5rem;
         justify-content: center;
         align-content: center;
@@ -179,9 +179,21 @@
     }
 
     .m {
+        display: flex;
+        flex-direction: column;
         color: var(--text-color);
         margin-top: 2rem;
         margin-bottom: 2rem;
+    }
+    .m a {
+        text-decoration: none;
+        color: var(--text-color);
+        /* font-weight: 600; */
+        font-size: 1rem;
+        transition: color var(--transition-time);
+    }
+    .m a:hover {
+        color: var(--hover-bg-color); /* Add hover effect for links */
     }
 
     /* hero */
