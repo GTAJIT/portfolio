@@ -1,4 +1,4 @@
-@media (max-width: 405px) {
+@media (max-width: 455px) {
     .name {
         display: none;
     }
@@ -10,9 +10,12 @@
     }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 660px) {
     .mc {
         display: none;
+    }
+    .download {
+        padding-right: 1rem;
     }
 
     .icon-menu {
