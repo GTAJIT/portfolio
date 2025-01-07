@@ -69,5 +69,13 @@ body {
     cursor: pointer;
 }
 .first-item{
-    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.navhero{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
 }
