@@ -23,7 +23,7 @@
 
 .pera-text {
     color: var(--navbar-li-color);
-    font-size: small;
+    font-size: var(--h3-size);
 }
 
 /* btns */

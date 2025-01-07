@@ -7,7 +7,9 @@
 
 /* Root Variables */
 :root {
+    /* colors */
     --bg-color: #F7EDE8;
+    --secondary-bg-color: #E8F2F7;
     --svg-color: #ffffff;
     --text-color: #000000;
     --text-color-ops: #ffffff;
@@ -18,9 +20,21 @@
     --next-theme-color: #5da600;
     --nav-list-bg-color: #ffffff1a;
     --nav-list-bg-color-ops: #00000033;
+    /* functions */
+    --box-shadow: 0px 0px 15px -4px var(--navbar-li-color);
+    --linear-gradient: linear-gradient(to right, #606060 0, #000 10%, #797979 20%);
+    /* unchanged */
+    --h1-size: 2.5rem;
+    --h2-size: 23.8px;
+    --h3-size: 14.17px;
+    --h4-size: 8.43px;
+    --in-0: 0%;
+    --in-60: 240px;
+    --in-100: 480px; 
 }
 .darkmode{
     --bg-color: #081217;
+    --secondary-bg-color: #160d08;
     --svg-color: #000000;
     --text-color: #ffffff;
     --text-color-ops: #000000;
@@ -31,6 +45,7 @@
     --next-theme-color: #A259FF;
     --nav-list-bg-color: #00000033;
     --nav-list-bg-color-ops: #ffffff1a;
+    --linear-gradient: linear-gradient(to right, #9f9f9f 0, #fff 10%, #868686 20%);
 }
 
 /* Body Styling */
@@ -52,4 +67,7 @@ body {
     width: 50px;
     height: 50px;
     cursor: pointer;
+}
+.first-item{
+    /* height: 100vh; */
 }
