@@ -53,6 +53,15 @@
         padding-right: var(--phone-margin);
         transition: var(--transition-time);
     }
+
+    /* service */
+    .service{
+        margin-left: var(--phone-margin);
+        margin-right: var(--phone-margin);
+    }
+    .btn-shine{
+        scale: 0.6;
+    }
 }
 
 @media (min-width: 750px) {
@@ -67,6 +76,7 @@
     .right {
         margin-right: var(--main-margin);
     }
+
 
 
     /* hero */
@@ -84,6 +94,18 @@
         padding-right: var(--main-margin);
         transition: var(--transition-time);
 
+    }
+
+    /* service */
+    .service{
+        margin-left: var(--main-margin);
+        margin-right: var(--main-margin);
+    }
+    .first-item{
+        height: 100vh;
+    }
+    .btn-shine{
+        scale: 1;
     }
     
 }
