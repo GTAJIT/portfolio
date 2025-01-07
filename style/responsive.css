@@ -69,6 +69,9 @@
         display: none;
     }
     /*navbar*/
+    .navbar{
+        margin-bottom: 1.5rem;
+    }
     .left {
         margin-left: var(--main-margin);
         margin-right: 0.5rem;
