@@ -92,7 +92,7 @@ a {
 }
 
 #theme-switch:hover{
-    box-shadow: 0px 0px 15px -4px var(--navbar-li-color);
+    box-shadow: var(--box-shadow);
 }
 
 #theme-switch svg {
@@ -135,7 +135,7 @@ a {
 }
 
 .download-btn:hover{
-    box-shadow: 0px 0px 15px -4px var(--navbar-li-color);
+    box-shadow: var(--box-shadow);
 }
 
 .download-btn .text {
