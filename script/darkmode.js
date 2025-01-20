@@ -17,3 +17,6 @@ themeswitch.addEventListener("click", ()=>{
     darkmode = localStorage.getItem('darkmode')
     darkmode != "active" ? ondarkmode():offdarkmode()
 })
+
+let darkicon = localStorage.getItem('darkmode')
+const 
