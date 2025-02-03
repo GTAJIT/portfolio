@@ -19,4 +19,3 @@ themeswitch.addEventListener("click", ()=>{
 })
 
 let darkicon = localStorage.getItem('darkmode')
-const 
