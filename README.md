@@ -1,1 +1,1 @@
-##Portfolio Based on React+Vite##
+##Portfolio Based on Next.js##
