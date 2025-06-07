@@ -2,7 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import Layout from './layout.jsx'
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import {Landing, About, Projects} from './pages/pages.js';
+import {Landing, About, Projects, Contact} from './pages/pages.js';
 
 const router = createBrowserRouter([
   {
@@ -22,6 +22,10 @@ const router = createBrowserRouter([
         element: <Projects/>,
         children: [
         ]
+      },
+      {
+        path: "/contact",
+        element: <Contact/>
       }
     ]
   }
