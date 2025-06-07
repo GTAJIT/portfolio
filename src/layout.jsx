@@ -1,7 +1,6 @@
 import { Children } from "react";
-import Landing from './pages/Landing'
 import { Outlet } from "react-router-dom";
-import {Navbar, Footer} from "./components/component";
+import {Navbar, Footer, Container} from "./components/component";
 // import {Space_Mono} from "../public/font"
 
 // const spaceMono = Space_Mono({
@@ -18,11 +17,17 @@ import {Navbar, Footer} from "./components/component";
 export default function Layout(){
   return (
     <>
+      <div>
+      <div className="h-screen flex flex-col justify-between">
       <Navbar/>
-      <main>
-        <Outlet/>
+      <Container>
+      <main className="flex flex-col items-center">
+          <Outlet/>
       </main>
+      </Container>
       <Footer/>
+      </div>
+      </div>
     </>
   )
 }

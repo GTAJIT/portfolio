@@ -25,7 +25,7 @@ export default function Navbar() {
     <>
       <div>
         <Container>
-          <nav className="flex justify-between ml-[10rem] mr-[5rem] mt-5">
+          <nav className="flex justify-between">
             <Link to="/">
               <Logo/>
             </Link>
