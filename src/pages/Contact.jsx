@@ -4,13 +4,13 @@ import { ContactForm } from "../components/component";
 
 export default function Contact() {
   return (
-    <div className="min-h-fit flex flex-col items-center justify-center">
+    <div className="min-h-fit flex flex-col items-center justify-center ">
       <h1 className="text-4xl font-bold mb-2 text-gray-800">Get In Touch</h1>
       <p className="text-lg mb-10 text-gray-600 max-w-2xl text-center warp-anywhere">
         I’d love to connect! Fill out the form or use the info below to reach
         out.
       </p>
-      <div className="flex flex-col md:flex-row gap-8 w-full max-w-6xl bg-white p-10 rounded-2xl shadow-lg items-center justify-between">
+      <div className="flex flex-col md:flex-row gap-8 w-full max-w-6xl p-10 items-center justify-between isolate border-none rounded-2xl bg-white/20 shadow-lg ring-1 ring-black/5">
         {/* Contact Info Card */}
         <div className="bg-teal-500 text-white rounded-2xl shadow-lg flex-1 p-10 flex gap-10 justify-between min-w-[270px]">
           <div className="flex flex-col justify-between ">
