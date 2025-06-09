@@ -9,12 +9,12 @@ const PopUp = ({name, children}) => {
         data-[tooltip]:after:mt-2 
         data-[tooltip]:after:text-sm 
         data-[tooltip]:after:invisible 
-        data-[tooltip]:after:scale-50 
+        data-[tooltip]:after:scale-50
         data-[tooltip]:after:origin-top 
         data-[tooltip]:after:opacity-0 
         hover:data-[tooltip]:after:visible 
         hover:data-[tooltip]:after:opacity-100 
-        hover:data-[tooltip]:after:scale-100 
+        hover:data-[tooltip]:after:scale-75 
         data-[tooltip]:after:transition-all 
         data-[tooltip]:after:absolute 
         data-[tooltip]:after:bg-white 

@@ -15,9 +15,9 @@ export default function SocialIcons() {
     
   return (
     <>
-      <div className='flex gap-5 items-center'>
+      <div className='flex gap-1 items-center'>
         {data.map((item, index)=>(
-          <div key={index} className='flex items-center gap-2 my-2'>
+          <div key={index} className='flex items-center my-2'>
             <a
               href={item.slug}
               target="_blank"
