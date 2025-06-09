@@ -1,12 +1,67 @@
-# React + Vite
+# CodesByJit – Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website!  
+This project showcases my work, skills, and contact information as a developer.
 
-Currently, two official plugins are available:
+## 🚀 Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Frontend:** React, Vite
+- **Styling:** Tailwind CSS, styled-components
+- **Routing:** React Router
+- **Linting:** ESLint
 
-## Expanding the ESLint configuration
+## 📁 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+src/
+  components/      # Reusable UI components
+  hooks/           # Custom React hooks (projects, socials)
+  pages/           # Main pages (Landing, About, Projects, Contact)
+  layout.jsx       # Main layout with Navbar and Footer
+  main.jsx         # App entry point and router setup
+public/
+  main_assets/     # Logos and social icons
+  font/            # Custom fonts
+style.css          # Tailwind base import
+```
+
+## 🖥️ Features
+
+- Responsive design
+- Projects showcase with tags, repo/demo links
+- Social media links with tooltips
+- Theming support (light/dark/system)
+- Easy navigation with React Router
+
+## 📦 Getting Started
+
+1. **Install dependencies:**
+   ```sh
+   npm install
+   ```
+2. **Start the development server:**
+   ```sh
+   npm run dev
+   ```
+3. **Build for production:**
+   ```sh
+   npm run build
+   ```
+4. **Preview production build:**
+   ```sh
+   npm run preview
+   ```
+
+## 📝 Customization
+
+- Add or update your projects in `src/hooks/useProjects.jsx`
+- Update social links in `src/hooks/useSocials.jsx`
+- Modify styles in `style.css` or Tailwind classes
+
+## 📬 Contact
+
+Find my contact and social links on the Contact page of the site.
+
+---
+
+© 2025 CodesByJit. All rights reserved.
