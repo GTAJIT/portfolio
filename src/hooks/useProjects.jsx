@@ -1,71 +1,64 @@
 const projects = [
   {
-    name: "Chat-O-Cord",
-    description:
-      "A full stack end to end chat application built with React as the frontend, Express.js as the backend, PostgreSQL as the database, Redis for session cache, Socket.io for real-time communication, Cloudinary for image storage. Last but not the least, it is then built with Electron to make it a desktop application.",
-    image: "/projects/chatocord_demo.webp",
-    imgUrl: "public/main_assets/Projects/chatocord_demo.webp",
-    repoUrl: "https://github.com/dtg-lucifer/Chat-O-Cord",
-    demoUrl: "https://github.com/dtg-lucifer/Chat-O-Cord",
-    tags: ["React", "Redis", "Socket.io", "Electron"],
-    wip: false,
+    name: "FileFlow Organizer",
+    description: "Next.js/TypeScript web app for cloud file management and sharing, offering secure Firebase cloud storage:contentReference[oaicite:3]{index=3}.",
+    repoUrl: "https://github.com/lokeshkavisth/FileFlow",
+    demoUrl: "https://fileflow.vercel.app",
+    image: "/projects/fileflow_demo.webp",
+    imgUrl: "public/main_assets/Projects/Demo.png",
+    tags: ["Next.js", "TypeScript", "React", "Firebase", "Tailwind CSS"],
+    wip: false
   },
   {
-    name: "Starty",
-    description:
-      "A centralised reddit like platform to share and find out more startups matching your interests. Built with Next.js v15, TailwindCSS, and Sanity.io for the headless CMS and handling all of the data.",
-    image: "/projects/starty_demo.webp",
-    imgUrl: "public/main_assets/Projects/starty_demo.webp",
-    repoUrl: "https://github.com/dtg-lucifer/starty",
-    demoUrl: "https://github.com/dtg-lucifer/starty",
-    tags: ["Next.js@15", "TailwindCSS", "Sanity.io"],
-    wip: false,
+    name: "FitNest",
+    description: "Web app tracking student athletes' health and fitness data and relaying results to coaches for tailored training regimens:contentReference[oaicite:4]{index=4}.",
+    repoUrl: "https://github.com/hp01674/FitNest",
+    demoUrl: "#",
+    image: "/projects/fitnest_demo.webp",
+    imgUrl: "public/main_assets/Projects/Demo.png",
+    tags: ["JavaScript", "HTML", "CSS"],
+    wip: false
   },
   {
-    name: "RustyKV",
-    description:
-      "Rusty KV Store is a lightweight Redis-compatible server that implements Redis commands using Rust's async I/O capabilities with Tokio. This project aims to provide a high-performance, memory-efficient alternative to Redis while maintaining protocol compatibility. It comes with pre-built CLI client built with C++.",
-    repoUrl: "https://github.com/rusty-org/rusty-kv",
-    demoUrl: "https://github.com/rusty-org/rusty-kv",
-    image: "/projects/rustykv_demo.webp",
-    imgUrl: "public/main_assets/Projects/rustykv_demo.webp",
-    tags: ["Rust", "C++", "Multithreading", "Redis"],
-    wip: true,
+    name: "EasySpeak",
+    description: "Full-stack language-learning platform with a .NET/C# backend and Angular frontend, enabling real-time chat, lesson scheduling, and interactive calls.",
+    repoUrl: "https://github.com/BinaryStudioAcademy/bsa-winter-2022-2023-easyspeak",
+    demoUrl: "https://bsa-easyspeak.westeurope.cloudapp.azure.com",
+    image: "/projects/easyspeak_demo.webp",
+    imgUrl: "public/main_assets/Projects/Demo.png",
+    tags: [".NET", "C#", "Angular", "SignalR", "RabbitMQ", "MS SQL", "Azure", "Docker"],
+    wip: false
   },
   {
-    name: "Everato",
-    description:
-      "Open source solution for in-person and online event organisation and management, in replacement of Konfhub.",
-    repoUrl: "https://github.com/dtg-lucifer/everato",
-    demoUrl: "https://github.com/dtg-lucifer/everato",
-    image: "/projects/wip.webp",
-    imgUrl: "public/main_assets/Projects/wip.webp",
-    tags: ["Go", "Next.js@15"],
-    wip: true,
+    name: "SmartLocal",
+    description: "Community skill-exchange platform connecting local users for service and resource sharing via geolocation and real-time messaging.",
+    repoUrl: "#",
+    demoUrl: "#",
+    image: "/projects/smartlocal_demo.webp",
+    imgUrl: "public/main_assets/Projects/Demo.png",
+    tags: ["React", "Node.js", "MongoDB", "Firebase"],
+    wip: true
   },
   {
-    name: "CI CD Pipeline to deploy on GCP (Docker Swarm)",
-    description:
-      "This project includes a Python application to monitor server health which stores last 5 logs into Redis cache, replicated and deployed on a 2-node Docker Swarm cluster on GCP.",
-    repoUrl: "https://github.com/dtg-lucifer/redis-docker-swarm-devops-project",
-    demoUrl:
-      "https://devpiush.hashnode.dev/learn-to-deploy-your-application-on-a-docker-swarm-cluster-step-by-step-guide-with-code",
-    image: "/projects/docker_swarm_demo.webp",
-    imgUrl: "public/main_assets/Projects/docker_swarm_demo.webp",
-    tags: ["Docker Swarm", "GCP", "Redis", "Python", "Microservices"],
-    wip: false,
+    name: "Work3",
+    description: "Online publication on the future of work and AI trends, with weekly articles and guides for career development.",
+    repoUrl: "#",
+    demoUrl: "https://wrk3.beehiiv.com",
+    image: "/projects/work3_demo.webp",
+    imgUrl: "public/main_assets/Projects/Demo.png",
+    tags: ["Next.js", "Tailwind CSS", "Markdown"],
+    wip: false
   },
   {
-    name: "Inside Out Tea",
-    description:
-      "Collaboration on a Tea Business Startup that offers a unique tea selection based on individual moods. Whether you're feeling stressed, happy, or adventurous, our platform helps you find the perfect tea flavor to match your mood.",
-    repoUrl: "https://github.com/dtg-lucifer/inside-out-tea",
-    demoUrl: "https://inside-out-tea.vercel.app/",
-    image: "/projects/insideout_demo.webp",
-    imgUrl: "public/main_assets/Projects/insideout_demo.webp",
-    tags: ["Next.js@15", "TailwindCSS"],
-    wip: false,
-  },
+    name: "MindEase",
+    description: "Personal mental health assistant web app providing instant support and coping strategies, built with Django and React:contentReference[oaicite:5]{index=5}.",
+    repoUrl: "https://github.com/puneetmpatil/SNLP-Project",
+    demoUrl: "#",
+    image: "/projects/mindease_demo.webp",
+    imgUrl: "public/main_assets/Projects/Demo.png",
+    tags: ["Django", "React", "Python", "JavaScript"],
+    wip: false
+  }
 ];
 
 export const getProjects = async () => {
