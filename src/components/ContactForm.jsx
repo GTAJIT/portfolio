@@ -28,7 +28,7 @@ export default function ContactForm() {
         console.log("Form submitted");
     };
     return (
-        <form className="bg-white rounded-2xl shadow-lg flex-1 p-8 flex flex-col gap-4 min-w-[320px] text-black">
+        <form className="bg-white rounded-2xl shadow-lg flex-1 p-8 flex flex-col gap-4 min-w-[320px] text-black ">
             <div className="flex flex-col md:flex-row gap-4">
                 {Inputs.slice(0,2).map((input, index) => (
                     <InputMsg
