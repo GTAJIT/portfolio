@@ -5,9 +5,9 @@ export default function About() {
     <div className="container mx-auto px-4 py-8">
       {/* Header Section */}
       <div className="flex flex-col md:flex-row gap-8 mb-12">
-        <div className="bg-yellow-400 rounded-lg p-6 md:w-1/3">
+        <div className="bg-yellow-400 flex flex-col rounded-lg p-6 md:w-1/3">
           <img 
-            src="/main_assets/profile.webp" 
+            src="/public/main_assets/image.png" 
             alt="Profile"
             className="rounded-lg w-full max-w-[250px] mx-auto"
           />
