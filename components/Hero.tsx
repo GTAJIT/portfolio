@@ -27,7 +27,7 @@ function Hero() {
                     <p className='text-white-200 text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
                         Hi, I&apos;m <b className='text-white'>Jit</b>, a Full Stack Developer and DevOps Engineer
                     </p>
-                    <a href="#about">
+                    <a href="#projects">
                         <MagicButton title="Show my work" icon={<FaLocationArrow/>} position='right' />
                     </a>
                 </div>
