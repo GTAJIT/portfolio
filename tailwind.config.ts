@@ -1,9 +1,16 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+/* eslint-disable @typescript-eslint/no-require-imports */
 import type { Config } from "tailwindcss";
 
 import svgToDataUri from "mini-svg-data-uri";
 
-import colors from "tailwindcss/colors";
-import flattenColorPalette from "tailwindcss/lib/util/flattenColorPalette";
+// import colors from "tailwindcss/colors";
+// import flattenColorPalette from "tailwindcss/lib/util/flattenColorPalette";
+
+// eslint-disable-next-line 
+//@typescript-eslint/no-var-requires
+const flattenColorPalette = require("tailwindcss/lib/util/flattenColorPalette");
+
 
 const config = {
   darkMode: ["class"],
@@ -189,8 +196,8 @@ const config = {
 } satisfies Config;
 
 function addVariablesForColors({ addBase, theme }: any) {
-  let allColors = flattenColorPalette(theme("colors"));
-  let newVars = Object.fromEntries(
+  const allColors = flattenColorPalette(theme("colors"));
+  const newVars = Object.fromEntries(
     Object.entries(allColors).map(([key, val]) => [`--${key}`, val])
   );
 
