@@ -1,9 +1,11 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 
 import { FaLocationArrow } from "react-icons/fa6";
 
 import { projects } from "@/data";
 import { PinContainer } from "./ui/Pin";
+// import Image from "next/image";
 
 const RecentProjects = () => {
   return (
@@ -30,6 +32,10 @@ const RecentProjects = () => {
                   <img src="/bg.png" alt="bgimg" />
                 </div>
                 <img
+                  // width={item.id === 4 || item.id === 5 ? 100 : 150}
+                  // height={item.id === 4 || item.id === 5 ? 200 : 200}
+                  // loading="lazy"
+                  // decoding="async"
                   src={item.img}
                   alt="cover"
                   className="z-10 absolute bottom-0"
