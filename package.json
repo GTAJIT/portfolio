@@ -13,6 +13,7 @@
     "@react-three/fiber": "^9.2.0",
     "@tabler/icons-react": "^3.34.0",
     "@types/tailwindcss": "^3.0.11",
+    "@vercel/analytics": "^1.5.0",
     "clsx": "^2.1.1",
     "framer-motion": "^12.23.0",
     "mini-svg-data-uri": "^1.4.4",
