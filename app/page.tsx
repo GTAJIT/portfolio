@@ -7,11 +7,14 @@ import Hero from "@/components/Hero";
 import Projects from "@/components/Projects";
 import { FloatingNav } from "@/components/ui/Floating-Nav";
 import { navItems } from "@/data";
+// import { Suspense } from "react";
+// import Loading from "./loading";
 
 export default function Home() {
   return (
     <main className="relative bg-black-100 text-white flex justify-center items-center flex-col overflow-hidden overflow-clip mx-auto sm:px-10 px-5">
       <div className="max-w-7xl w-full">
+        {/* <Suspense fallback={<Loading/>}> */}
         <FloatingNav navItems={navItems}/>
         <Hero/>
         <Grid/>
@@ -20,6 +23,7 @@ export default function Home() {
         <Experience />
         <Approach />
         <Footer />
+        {/* </Suspense> */}
       </div>
     </main>
   );
